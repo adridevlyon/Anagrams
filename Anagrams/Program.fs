@@ -5,5 +5,6 @@ open AnagramFinder
 
 [<EntryPoint>]
 let main argv = 
-    printfn "%A" argv
+    let fileName = @"C:\Users\a.marion\Documents\wordlist.txt";
+    printAnagrams fileName
     0 // return an integer exit code
